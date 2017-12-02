@@ -18,6 +18,28 @@ function message(sender, sms, receiver) {
 
 console.log(message(sender, sms, receiver));
 
-// "(FROM: sender) (TO: receiver) (MESSAGE: sms)"
+
+// point02
+
+var firstName = 'Łukasz',
+    lastName = 'Sztormowski';
 
 
+function initials(firstName, lastName) {
+    firstName = firstName.charAt(0).toUpperCase();
+    lastName = lastName.charAt(0).toUpperCase();
+
+    return firstName + '.' + lastName;
+}
+
+console.log('Initials: ' + initials(firstName, lastName));
+
+//point 03
+
+function randomNumber(){
+    var number = Math.random() * 10;
+    number = number.toFixed(2);
+    return number;
+}
+
+console.log('Twoja szczęśliwa liczba to: ' + randomNumber());
