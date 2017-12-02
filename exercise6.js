@@ -20,7 +20,6 @@ console.log(message(sender, sms, receiver));
 
 
 // point02
-
 var firstName = 'Łukasz',
     lastName = 'Sztormowski';
 
@@ -35,7 +34,6 @@ function initials(firstName, lastName) {
 console.log('Initials: ' + initials(firstName, lastName));
 
 //point 03
-
 function randomNumber(){
     var number = Math.random() * 10;
     number = number.toFixed(2);
@@ -43,3 +41,15 @@ function randomNumber(){
 }
 
 console.log('Twoja szczęśliwa liczba to: ' + randomNumber());
+
+// point 04
+function getDinnerPrice() {
+    var tip = 20;
+    var price = 100;
+    var totalPrice = tip + price;
+
+    console.log(typeof (totalPrice));
+    return totalPrice;
+}
+
+console.log(getDinnerPrice());
