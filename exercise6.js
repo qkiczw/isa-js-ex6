@@ -48,6 +48,7 @@ function getDinnerPrice() {
     var price = 100;
     var totalPrice = tip + price;
 
+    totalPrice = Number(totalPrice);
     console.log(typeof (totalPrice));
     return totalPrice;
 }
