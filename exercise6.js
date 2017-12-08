@@ -12,7 +12,7 @@ from = from.toUpperCase();
 to = to.toUpperCase();
 
 
-function message(sender, sms, receiver) {
+function message(sender, sms, receiver){
     return '(' + from + sender + ') (' + to + receiver + ') (' + sms + ')';
 }
 
@@ -24,7 +24,7 @@ var firstName = 'Łukasz',
     lastName = 'Sztormowski';
 
 
-function initials(firstName, lastName) {
+function initials(firstName, lastName){
     firstName = firstName.charAt(0).toUpperCase();
     lastName = lastName.charAt(0).toUpperCase();
 
